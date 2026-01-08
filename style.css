@@ -1,0 +1,143 @@
+body{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to top, rgb(212, 253, 137),rgb(232, 242, 213));
+
+}
+main {
+    background-image: url("Mar2019-community1200x630.png");
+    background-size:  cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.navBar{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    background-color: rgb(196, 196, 196);
+    width: 95%;
+    height: 45px;
+    gap: 55px;
+    padding-left: 55px;
+    border: 2px darkgoldenrod solid;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+.navBar a:hover{
+    color: orange ;
+    transition: orange 0.5s ease;
+}
+.link{
+    text-decoration: none;
+    color: rgb(76, 19, 104);
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+}
+.link2{
+    text-decoration: none;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    color: rgb(55, 55, 55);
+    font-family: 'Courier New', Courier, monospace;
+    border: 2.5px darksalmon solid;
+    border-radius: 7px;
+    width: 125px;
+    margin-bottom: 10px;
+}
+a {
+    align-items: center;
+    gap: 10px;
+}
+#fb{
+    gap: 20px;
+}
+#wa{
+    gap: 17.5px;
+}
+#tt{
+    gap: 40px;
+}
+h3 {
+    font-size: 35px;
+}
+p {
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   border: 3px rgb(43, 255, 0) dashed;
+   border-radius: 5px;
+   background-color: rgb(194, 255, 255);
+   font-family: sans-serif;
+   font-size: 25px;
+}
+.input{
+    background-color: bisque;
+    color: brown;
+    font-size: 24px;
+    border: 3px rgb(43, 255, 0) dashed;
+    width: 30%;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.btn{
+    height: 25px;
+    width: 125px;
+    background-color: rgb(43, 255, 0);
+    color:rgb(238, 250, 215);
+    border: 2px black solid;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.news{
+    border: 2px rgb(170, 92, 13) solid;
+    border-radius: 5px;
+    background-color: rgb(126, 238, 128);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    max-width: 20%;
+    margin-right: 35px;
+}
+.servisec{
+    border: 2px rgb(197, 142, 15) solid;
+    border-radius: 5px;
+    background-color: rgb(95, 241, 110);
+    color: olive;
+    font-family: 'Lucida Sans Regular', 'Lucida Sans Unicode';
+    font-size: 22px;
+    margin-bottom: 37px;
+    width: 75%;
+    height: 75px; 
+    padding-top: 15px;
+}
+.buton{
+    font-size: 30px;
+    background: linear-gradient(to top, rgb(213, 255, 134),rgb(176, 255, 30));
+    /*background-color: rgb(193, 253, 190);*/
+    color: rgb(199, 116, 0);
+    border: 2.6px rgb(226, 216, 22) solid;
+    border-radius: 5px;
+}
+.pop{
+    background: linear-gradient(to top, rgb(213, 255, 134),rgb(176, 255, 30));
+}
+#myDialog{
+
+    background-color: rgb(228, 255, 186);
+}
+#myDialog2{
+    background-color: rgb(228, 255, 186);
+}
+#myDialog3{
+    background-color: rgb(228, 255, 186);
+}
+#myDialog4{
+    background-color: rgb(228, 255, 186);
+}
